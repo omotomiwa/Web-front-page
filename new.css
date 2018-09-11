@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(splash.swine.jpg);
+    background-position: centre;
+    background-size: 100vw
+}
+#book{
+    width: 91%;
+    height: 50px;
+    margin: 50px auto;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+}
+.box1 {
+    border: 1px solid yellow;
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}
+        
+}
+.link h4{
+    display: inline-block;
+    margin: 10px;
+
+  }  
+  .box2{
+      width: 50px;
+      height: 50px;
+      border: 1px solid blue;
+      background-image:url(flatsearch.png);
+      background-size: 50px;
+      background-position: centre;
+  }
+  .box3{
+      width: 50px;
+      height: 50px;
+      border:1px solid blue;
+      background-image: url(flatprofile.png);
+      background-size: 50px;
+      background-position: center;
+  }
+
+.box4{
+    width: 50px;
+    height: 50px;
+    border: 1px solid yellow;
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(flatcart.png);
+    border-image: 25px;
+    background-color: solid yellow;
+}
+#main{
+    margin-top: 12%;
+    width: 25%
+  
+
+
+}
+#footer{
+    height: 300px;
+    width: 100vw;
+    margin-top: 50px;
+    
+}
+.foot{
+    background-image: url(splash.water.jpg);
+    height: 300px;
+    width:200px;
+    background-position: center;
+    margin-left: 1150px;
+    text-align: center;
+    
+    
+    
+}
+
+.footee{
+   background-image: url(splash.skate,jpg);
+   height: 300px;
+   width: 200px;
+}
