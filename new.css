@@ -4,7 +4,8 @@
 body{
     background-image: url(splash.swine.jpg);
     background-position: centre;
-    background-size: 100vw
+    background-size: 100vw;
+    color:white;
 }
 #book{
     width: 90%;
@@ -21,13 +22,23 @@ body{
     flex-grow: 1;
     padding: 10px;
 }
-        
+   .traveloo{
+            margin: -8px;
+            color: antiquewhite;
+   }     
 
 .link h4{
     display: inline-block;
-    margin: 10px;
-
+    margin: 12px;
+    color: antiquewhite;   
+   
   }  
+  .link {
+    word-spacing: 95px;
+    margin-left: 70px;
+
+}
+
   .box2{
       width: 50px;
       height: 50px;
@@ -67,51 +78,109 @@ body{
 
 }
 #footer{
-    height: 200px;
+    height: 300px;
     width: 100vw;
-    margin-top: 50px;
     display: flex;
     flex-direction: row;
+
+
     
 }
 .foot{
     width: 700px;
     background-color: rgba(0, 0, 0, 1);
-    height:300px;
+    height:324px;
+   
     
 
 }
-
-.footee{
-    background-image: url(splash.water.jpg);
-    width: 324;
-    height: 300;
+.block1{
+    display: flex;
+}
+.block11{
+    height: 75px;
+    width: 75px;
+    background-image: url(pyramid.jpg);
+    display: flex;
     background-position: center;
-    position: relative;
-    text-align: center;
-    padding: 7%;
-    color: white;
-
 }
-.square{height: 10px;
-        width: 10px;
-        background-color:rgba(0, 0, 0, 0.5);
-        padding: 30px;
-        border-radius: 5px;
+.block2{
+    display: flex;
 }
-.squared{height: 10px;
-    width: 10px;
-    background-color:rgba(0, 0, 0, 0.5);
-    padding: 25px;
+.block22{
+    height: 75px;
+    width: 75px;
+    background-image:url(road.jpg);
+    display: block;
+    background-position: center;
+}
+.block3{
+    display: flex;
+}
+.block33{
+    height: 75px;
+    width: 75px;
+    background-image: url(beach.jpg);
+    display: block;
+    background-position: center;
+}
+.block4{
+    display: flex;
+}
+.block44{
+    height: 75px;
+    width: 75;
+    background-image: url(architectural.jpg);
+    display: block;
+    background-position: centre; 
+}
+.foote{
+      
+}
+.background{
+    background-image: url(splash.water.jpg);
+    height: 323px;
+    width:350px;
+    background-position: center;
+}
+.hidden{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
     border-radius: 5px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.numberone{
+    text-align: center;
+    margin-left: -10px;
+    margin-bottom: 50px;
+}
+.box{
+    background-color: yellow;
+    height: 45px;
+    width: 45px;
+    background-position: center bottom;
+}
+.last{
+    background-image: url(splash.forest.jpg);
+    height: 323px;
+    width: 275px;
+    background-position: center;
+}
+.sunset{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 80px;
 
 }
-.footed{
-    background-image: url(splash.forest.jpg);
-    width:327px;
-    height:300px;
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 9%;
+.box2{
+    background-color: yellowgreen;
+    height: 45px;
+    width: 45px;
 }
